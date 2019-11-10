@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements Tamagotchi.Interf
                     }
                     if (dead == list.size()) {
 
-                        Toast.makeText(MainActivity.this, "tama endgame kohdassa", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "at tama endgame", Toast.LENGTH_LONG).show();
 
                         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                         Log.d("tama", "endgame alert");
